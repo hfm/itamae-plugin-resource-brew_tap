@@ -1,9 +1,9 @@
-require "itamae/plugin/resource/tap/version"
+require "itamae/resource/base"
 
 module Itamae
   module Plugin
     module Resource
-      module Tap
+      module Tap < Itamae::Resource::Base
         # Your code goes here...
       end
     end
