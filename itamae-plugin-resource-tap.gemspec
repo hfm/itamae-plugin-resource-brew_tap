@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Takahiro OKUMURA"]
   spec.email         = ["hfm.garden@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Homebrew tap resource for Itamae plugin"
+  spec.description   = "Homebrew tap resource for Itamae plugin"
+  spec.homepage      = "https://github.com/tacahilo/itamae-plugin-resource-tap"
   spec.license       = "MIT License"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
