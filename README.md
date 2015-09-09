@@ -1,4 +1,5 @@
 # Itamae::Plugin::Resource::Tap
+[![Build Status](https://travis-ci.org/tacahilo/itamae-plugin-resource-tap.svg?branch=master)](https://travis-ci.org/tacahilo/itamae-plugin-resource-tap)
 
 Homebrew tap resource for [Itamae](https://github.com/itamae-kitchen/itamae).
 
