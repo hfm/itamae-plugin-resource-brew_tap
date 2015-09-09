@@ -1,5 +1,7 @@
 # Itamae::Plugin::Resource::BrewTap
 [![Build Status](https://travis-ci.org/tacahilo/itamae-plugin-resource-brew_tap.svg?branch=master)](https://travis-ci.org/tacahilo/itamae-plugin-resource-brew_tap)
+[![Code Climate](https://codeclimate.com/github/tacahilo/itamae-plugin-resource-brew_tap/badges/gpa.svg)](https://codeclimate.com/github/tacahilo/itamae-plugin-resource-brew_tap)
+[![Test Coverage](https://codeclimate.com/github/tacahilo/itamae-plugin-resource-brew_tap/badges/coverage.svg)](https://codeclimate.com/github/tacahilo/itamae-plugin-resource-brew_tap/coverage)
 
 Homebrew tap resource for [Itamae](https://github.com/itamae-kitchen/itamae).
 
