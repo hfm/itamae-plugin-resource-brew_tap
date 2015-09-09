@@ -1,8 +1,6 @@
 # Itamae::Plugin::Resource::Tap
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/itamae/plugin/resource/tap`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Homebrew tap resource for [Itamae](https://github.com/itamae-kitchen/itamae).
 
 ## Installation
 
@@ -22,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "itamae/plugin/resource/tap"
+
+tap "peco/peco"
+package "peco"
+
+tap "sanemat/font"
+package "ricty"
+
+# execute `brew untap homebrew/dupes`
+tap "homebrew/dupes" do
+  action :delete
+end
+```
 
 ## Development
 
@@ -32,5 +43,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/itamae-plugin-resource-tap.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/tacahilo/itamae-plugin-resource-tap.
