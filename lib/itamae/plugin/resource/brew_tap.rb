@@ -3,7 +3,7 @@ require "itamae/resource/base"
 module Itamae
   module Plugin
     module Resource
-      class Tap < Itamae::Resource::Base
+      class BrewTap < Itamae::Resource::Base
         define_attribute :action, default: :install
         define_attribute :target, type: String, default_name: true
 

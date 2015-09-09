@@ -1,5 +1,5 @@
-# Itamae::Plugin::Resource::Tap
-[![Build Status](https://travis-ci.org/tacahilo/itamae-plugin-resource-tap.svg?branch=master)](https://travis-ci.org/tacahilo/itamae-plugin-resource-tap)
+# Itamae::Plugin::Resource::BrewTap
+[![Build Status](https://travis-ci.org/tacahilo/itamae-plugin-resource-brew_tap.svg?branch=master)](https://travis-ci.org/tacahilo/itamae-plugin-resource-brew_tap)
 
 Homebrew tap resource for [Itamae](https://github.com/itamae-kitchen/itamae).
 
@@ -8,7 +8,7 @@ Homebrew tap resource for [Itamae](https://github.com/itamae-kitchen/itamae).
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'itamae-plugin-resource-tap'
+gem 'itamae-plugin-resource-brew_tap'
 ```
 
 And then execute:
@@ -17,21 +17,21 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install itamae-plugin-resource-tap
+    $ gem install itamae-plugin-resource-brew_tap
 
 ## Usage
 
 ```ruby
-require "itamae/plugin/resource/tap"
+require "itamae/plugin/resource/brew_tap"
 
-tap "peco/peco"
+brew_tap "peco/peco"
 package "peco"
 
-tap "sanemat/font"
+brew_tap "sanemat/font"
 package "ricty"
 
 # execute `brew untap homebrew/dupes`
-tap "homebrew/dupes" do
+brew_tap "homebrew/dupes" do
   action :delete
 end
 ```
@@ -44,4 +44,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/tacahilo/itamae-plugin-resource-tap.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tacahilo/itamae-plugin-resource-brew_tap.

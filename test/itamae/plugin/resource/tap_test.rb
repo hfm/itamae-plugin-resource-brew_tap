@@ -1,12 +1,12 @@
 require 'test_helper'
-require 'itamae/plugin/resource/tap'
+require 'itamae/plugin/resource/brew_tap'
 
 module Itamae
   module Plugin
     module Resource
-      class Itamae::Plugin::Resource::TestTap < Test::Unit::TestCase
+      class Itamae::Plugin::Resource::TestBrewTap < Test::Unit::TestCase
         setup do
-          @resource = Tap.new(stub, 'test/tap')
+          @resource = BrewTap.new(stub, 'test/tap')
         end
 
         sub_test_case '#action_install' do
